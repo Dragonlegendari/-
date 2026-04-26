@@ -58,7 +58,7 @@ info:
   prefix: '&f({#5cace6}CMILib&r&f) '
   NoPermission: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас недостаточно прав'
   CantHavePermission: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У вас нет разрешения на это'
-  WrongGroup: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}You are in wrong group for this'
+  WrongGroup: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы находитесь не в той группе для этого'
   NoPlayerPermission: '&c[playerName] не имеет разрешения: [permission]'
   Ingame: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы можете использовать это только в игре'
   NoInformation: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пусто'
@@ -71,17 +71,17 @@ info:
   NoCommand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Команды с этим названием не существует'
   cantFindCommand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Команды с этим названием не существует!\n&f*
     &7Возможно вы имели в виду: {#5cace6}[%2]&7?'
-  nolocation: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Can''t find suitable location'
+  nolocation: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось найти подходящее местоположение'
   FeatureNotEnabled: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Эта функция не включена'
   ModuleNotEnabled: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Этот модуль не включен'
   versionNotSupported: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Версия сервера не поддерживается
     для этой функции'
-  spigotNotSupported: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}You need Paper branch type server'
+  spigotNotSupported: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вам нужен сервер типа Paper'
   bungeeNoGo: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Эта функция не будет работать на серверах,
     связанных с BungeeCord'
   clickToTeleport: '&fНажмите, чтобы телепортироваться'
   UseMaterial: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пожалуйста, используйте названия материалов'
-  IncorrectMaterial: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Incorrect material name'
+  IncorrectMaterial: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Некорректное название материала'
   UseInteger: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пожалуйста, используйте числа'
   UseBoolean: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пожалуйста, используйте значения True
     или False'
@@ -97,7 +97,7 @@ info:
   Save: '{#8ae0e6}Сохранить'
   Delete: '{#ff8c8c}Удалить'
   Click: '{#8ae0e6}Клик'
-  Preview: '{#8ae0e6}Preview'
+  Preview: '{#8ae0e6}Предпросмотр'
   PasteOld: '{#8ae0e6}Вставить старый текст'
   ClickToPaste: '{#8ae0e6}Нажмите, чтобы вставить в чат'
   CantTeleportWorld: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете телепортироваться
@@ -105,7 +105,7 @@ info:
   CantTeleportNoWorld: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Целевого мира не существует.
     Телепортация отменена'
   ClickToConfirmDelete: '{#8ae0e6}Нажмите, чтобы подтвердить удаление'
-  ClickToConfirm: '{gcp}Click to confirm'
+  ClickToConfirm: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нажмите, чтобы подтвердить'
   teleported: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#8ae0e6}Вы были телепортированы.'
   PlayerSpliter: '&7- {#5cace6}[playerDisplayName] &7-'
   Spliter: '&7-------------------------'
@@ -135,7 +135,7 @@ info:
   confirmRedefine: '{#8ae0e6}Нажмите, чтобы подтвердить переопределение'
   cantEdit: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете редактировать это'
   wrongName: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неправильное имя'
-  unknown: unknown
+  unknown: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неизвестно'
   invalidName: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неверное имя'
   alreadyexist: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Это имя занято'
   dontexist: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неудалось найти игрока с таким именем'
@@ -171,7 +171,7 @@ info:
     flying: '{#5fe65c}Летает'
     notflying: '{#ff8c8c}Не летает'
   Inventory:
-    Full: '{gcd}Your inventory is full. Can''t add item'
+    Full: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Ваш инвентарь заполнен. Невозможно добавить предмет'
     FullDrop: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не все предметы помещаются в ваш инвентарь'
   TimeNotRecorded: '{#ff8c8c}-Нет информации-'
   months: '{gcs}[months] {gcp}м. '
@@ -232,7 +232,7 @@ info:
   fullScale: '{gcp}Width:{gcs}[x] {gcp}Height:{gcs}[y] {gcp}Depth:{gcs}[z]'
   basicVector: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y]'
   fullVector: '{gcp}X:{gcs}[x] {gcp}Y:{gcs}[y] {gcp}Z:{gcs}[z]'
-  incorrectColor: '{gcw}Color defined incorrectly!'
+  incorrectColor: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Цвет указан неправильно!'
   updateSpeed: '{gcp}Update speed: {gcs}[value]'
   serializeAndShow: '{gcp}Serialize and show'
   amount: '{gcp}Amount: {gcs}[value]'

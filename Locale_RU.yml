@@ -86,13 +86,12 @@ info:
   ChunksLoading: '&7Данные чанков мира все еще загружаются. Пожалуйста, подождите
     немного и попробуйте снова.'
   CantUseNonEncrypted: '!actionbar!&cКоманды для этого предмета не зашифрованы'
-  CantUseTrident: '!actionbar!{gcw}Can''t use trident with riptide enchant at this
-    moment'
+  CantUseTrident: '!actionbar!{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нельзя использовать трезубец с зачарованием "Неистовство" в данный момент'
   CantDecode: '!actionbar!&cНе удалось декодировать сообщение/команду'
   CantTeleport: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете телепортироваться, потому
     что у вас слишком много ограниченных предметов'
-  CantTeleportDistance: '{gcp}Sorry you cant teleport over {gcs}[amount] {gcp}blocks
-    away!'
+  CantTeleportDistance: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Извините, вы не можете телепортироваться
+    дальше {#e65c64}[amount] {#ff8c8c}блоков!'
   BlackList: '&f[material] {#5cace6}[amount] &7максимум: &f[max]'
   wrongPortal: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы находитесь в неправильной зоне действия'
   ItemWillBreak: '!actionbar!&7Ваш предмет (&f[itemName]&7) скоро сломается &f[current]&7/&f[max]'
@@ -133,7 +132,7 @@ info:
     exploit: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете создать книгу, содержащую
       более {#e65c64}[amount] {#ff8c8c}страниц.'
   combat:
-    CostToOpen: '!actionbar!{gcp}Charged for opening: [amount]'
+    CostToOpen: '!actionbar!{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Плата за открытие: [amount]'
     CantUseShulkerBox: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нельзя использовать шалкеровый
       ящик, пока Вы сражаетесь с игроком. Подождите: {#e65c64}[time]'
     CantUseCommand: '!actionbar!{#ff8c8c}Вы не можете использовать команды. Подождите:
@@ -177,7 +176,7 @@ info:
   afkSymbolOn: '&r&fچ'
   afkSymbolOff: ''
   beeinfo: '!actionbar!&7Улей: &e[level]&7/&e[maxlevel] &7Пчел: &e[count]&7/&e[maxcount]'
-  decoratedpotinfo: '!actionbar!{gcp}Contents: {gcs}[items]'
+  decoratedpotinfo: '!actionbar!{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Содержимое: [items]'
   pvp:
     noGodDamage: '!actionbar!&cВы не можете нанести урон игрокам, будучи в God'
   pve:
@@ -196,13 +195,13 @@ info:
     subinv: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Ваш суб инвентарь должен быть пустым'
     subinvslots: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Ваш суб инвентарь должен иметь минимум
       {#e65c64}[count] {#ff8c8c}пустых слотов'
-  Relog: '{gcp}Relog might be needed for change to take effect'
-  Any: Any
-  Reset: '{gcp}Press {gcs}Q {gcp}to reset'
-  outsideWorldBorder: '{gcw}Location is outside world border'
-  noWorldAccess: '{gcw}No world access'
-  IncorrectColor: '{gcw}Color defined incorrectly!'
-  IncorrectFile: '{gcw}File name defined incorrectly!'
+  Relog: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Может потребоваться перезаход, чтобы изменения вступили в силу'
+  Any: Любой
+  Reset: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нажмите {#e65c64}Q {#ff8c8c}для сброса'
+  outsideWorldBorder: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Местоположение находится за пределами границы мира'
+  noWorldAccess: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нет доступа к миру'
+  IncorrectColor: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Цвет указан неправильно!'
+  IncorrectFile: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Имя файла указано неправильно!'
   time:
     # Mainly for placeholder playtime output
     # Use + sign at the start of line to force include it even if specific and previous time values are 0
@@ -211,15 +210,15 @@ info:
     hours: '{gcn}[h]{gcn}час. '
     minutes: '{gcn}[m]{gcn}мин. '
     seconds: '{gcn}[s]{gcn}сек.'
-  CommandFormat: '&cIncorrect command format'
-  ServerSwitchOut: ' &f[playerDisplayName] &7switched server to &f[serverName]'
-  ServerSwitchIn: ' &f[playerDisplayName] &7came from &f[serverName] &7server'
+  CommandFormat: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неверный формат команды'
+  ServerSwitchOut: ' &f[playerDisplayName] &7перешёл на сервер &f[serverName]'
+  ServerSwitchIn: ' &f[playerDisplayName] &7пришёл с сервера &f[serverName]'
 dialog:
-  signEditor: Sign Editor
-  update: Update
-  save: Save
-  close: Close
-  line: Line [line]
+  signEditor: Редактор таблички
+  update: Обновить
+  save: Сохранить
+  close: Закрыть
+  line: Строка [line]
 warp:
   list: '&f[pos]. {#5cace6}[warpName] &8- &f[worldName] &f({#8ae0e6}[x]&7:{#8ae0e6}[y]&7:{#8ae0e6}[z]&f)'
 afk:
@@ -1652,9 +1651,8 @@ command:
         {#5cace6}[senderDisplayName]&7!'
       fullinv: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Инвентарь игрока {#e65c64}[playerDisplayName]
         {#ff8c8c}заполнен, не удалось сменить шляпу!'
-      incorrect: '&3Incorrect item in head slot, cant replace with new one. Remove
-        it manually'
-      cantUse: '&3Can''t use this item as a hat'
+      incorrect: '&3Неверный предмет в слоте головы, невозможно заменить новым. Удалите его вручную'
+      cantUse: '&3Нельзя использовать этот предмет как шляпу'
   head:
     help:
       info: '&7Выдать голову игрока'
@@ -1746,33 +1744,33 @@ command:
       interact: '&7Взаимодействие: &f[state]'
       particles: '&7Показ частиц: &f[state]'
       seeThrough: '{gcp}See through: {gcs}[state]'
-      seeThroughExtra: '{gcp}Text might not be visible while Board is enabled'
+      seeThroughExtra: '{gcp}Текст может быть не виден, пока включена доска'
       commands: '{#8ae0e6}Команды&7:'
-      hoverParticles: '{gcp}Show hover particles: {gcs}[state]'
-      particleCount: '{gcp}Particles: {gcs}[count]'
-      particleType: '{gcp}Particle type: {gcs}[type]'
-      particleSpacing: '{gcp}Particle spacing: {gcs}[amount]'
-      basePrefix: '{gcp}Base prefix: &r[prefix]X'
-      hoverPrefix: '{gcp}Hover prefix: &r[prefix]X'
-      locationRange: '{gcp}Modify location and range'
-      interactions: '{gcp}Modify interactions'
-      animations: '{gcp}Modify animations'
-      displayMethod: '{gcp}Type: {gcs}[state]'
-      enabled: '{gcp}Activated: {gcs}[state]'
-      followType: '{gcp}Follow type: {gcs}[type]'
-      doubleSided: '{gcp}Double sided: {gcs}[state]'
-      autoRotate: '{gcp}Auto rotate: {gcs}[angle]'
-      alignment: '{gcp}Text alignment: {gcs}[type]'
-      shadow: '{gcp}Text shadow: {gcs}[state]'
-      textAlpha: '{gcp}Text transparency: {gcs}[alpha]'
-      textWidth: '{gcp}Text auto wrap width: {gcs}[width]'
+      hoverParticles: '{gcp}Показывать частицы при наведении: {gcs}[state]'
+      particleCount: '{gcp}Частицы: {gcs}[count]'
+      particleType: '{gcp}Тип частиц: {gcs}[type]'
+      particleSpacing: '{gcp}Расстояние между частицами: {gcs}[amount]'
+      basePrefix: '{gcp}Основной префикс: &r[prefix]X'
+      hoverPrefix: '{gcp}Префикс при наведении: &r[prefix]X'
+      locationRange: '{gcp}Изменить местоположение и радиус'
+      interactions: '{gcp}Изменить взаимодействия'
+      animations: '{gcp}Изменить анимации'
+      displayMethod: '{gcp}Тип: {gcs}[state]'
+      enabled: '{gcp}Активировано: {gcs}[state]'
+      followType: '{gcp}Тип следования: {gcs}[type]'
+      doubleSided: '{gcp}Двусторонний: {gcs}[state]'
+      autoRotate: '{gcp}Автоповорот: {gcs}[angle]'
+      alignment: '{gcp}Выравнивание текста: {gcs}[type]'
+      shadow: '{gcp}Тень текста: {gcs}[state]'
+      textAlpha: '{gcp}Прозрачность текста: {gcs}[alpha]'
+      textWidth: '{gcp}Ширина автопереноса текста: {gcs}[width]'
       order: '&7Высота: &f[state]'
-      animationFadeIn: '{gcp}Fade In: {gcs}[value]'
-      animationFadeOut: '{gcp}Fade Out: {gcs}[value]'
-      bgColor: '{gcp}Background color: {gcs}[color]'
-      bgAlpha: '{gcp}Background transparency: {gcs}[alpha]'
-      textFiller: '{gcp}Text filler: {gcs}[width]'
-      textFillerExplanation: '{gcp}Add %filler% to auto fill text'
+      animationFadeIn: '{gcp}Появление: {gcs}[value]'
+      animationFadeOut: '{gcp}Исчезновение: {gcs}[value]'
+      bgColor: '{gcp}Цвет фона: {gcs}[color]'
+      bgAlpha: '{gcp}Прозрачность фона: {gcs}[alpha]'
+      textFiller: '{gcp}Заполнитель текста: {gcs}[width]'
+      textFillerExplanation: '{gcp}Добавьте %filler% для автозаполнения текста'
       interval: '&7Обновлять каждые &f[second] &7секунд'
       intervalLore:
       - \n&7Как часто в секундах обновляется \n&7информация о голограмме
