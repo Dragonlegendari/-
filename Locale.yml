@@ -55,11 +55,11 @@
 
 info:
   # Use !prefix! in any locale line to automatically include this prefix
-  prefix: '&f({#5cace6}CMILib&r&f) '
+  prefix: '{#FFFFFF}({#5cace6}CMILib{#ffffff}{#FFFFFF}) '
   NoPermission: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас недостаточно прав'
   CantHavePermission: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У вас нет разрешения на это'
   WrongGroup: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы находитесь не в той группе для этого'
-  NoPlayerPermission: '&c[playerName] не имеет разрешения: [permission]'
+  NoPlayerPermission: '{#FF5555}[playerName] не имеет разрешения: [permission]'
   Ingame: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы можете использовать это только в игре'
   NoInformation: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пусто'
   Console: '{#e6bb8a}Сервер'
@@ -69,8 +69,8 @@ info:
   NobodyOnline: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Нет никого в сети'
   NoPlayer: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось найти игрока с таким ником'
   NoCommand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Команды с этим названием не существует'
-  cantFindCommand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Команды с этим названием не существует!\n&f*
-    &7Возможно вы имели в виду: {#5cace6}[%2]&7?'
+  cantFindCommand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Команды с этим названием не существует!\n{#FFFFFF}*
+    {#AAAAAA}Возможно вы имели в виду: {#5cace6}[%2]{#AAAAAA}?'
   nolocation: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось найти подходящее местоположение'
   FeatureNotEnabled: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Эта функция не включена'
   ModuleNotEnabled: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Этот модуль не включен'
@@ -79,7 +79,7 @@ info:
   spigotNotSupported: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вам нужен сервер типа Paper'
   bungeeNoGo: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Эта функция не будет работать на серверах,
     связанных с BungeeCord'
-  clickToTeleport: '&fНажмите, чтобы телепортироваться'
+  clickToTeleport: '{#FFFFFF}Нажмите, чтобы телепортироваться'
   UseMaterial: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пожалуйста, используйте названия материалов'
   IncorrectMaterial: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Некорректное название материала'
   UseInteger: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пожалуйста, используйте числа'
@@ -107,23 +107,23 @@ info:
   ClickToConfirmDelete: '{#8ae0e6}Нажмите, чтобы подтвердить удаление'
   ClickToConfirm: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}{#86efac}Нажмите, чтобы подтвердить'
   teleported: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#8ae0e6}Вы были телепортированы.'
-  PlayerSpliter: '&7- {#5cace6}[playerDisplayName] &7-'
-  Spliter: '&7-------------------------'
-  SpliterValue: '&7- {#5cace6}[value] &7-'
-  singleSpliter: '&7-'
-  SpliterMiddle: ' &6[value] '
+  PlayerSpliter: '{#AAAAAA}- {#5cace6}[playerDisplayName] {#AAAAAA}-'
+  Spliter: '{#AAAAAA}-------------------------'
+  SpliterValue: '{#AAAAAA}- {#5cace6}[value] {#AAAAAA}-'
+  singleSpliter: '{#AAAAAA}-'
+  SpliterMiddle: ' {#FFAA00}[value] '
   ListSpliter: ', '
-  ProgressBarFill: '&a▏'
-  ProgressBarEmpty: '&7▏'
+  ProgressBarFill: '{#55FF55}▏'
+  ProgressBarEmpty: '{#AAAAAA}▏'
   nothingInHand: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вам нужно держать предмет в руке'
   nothingInHandLeather: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вам нужно держать кожу в руке'
   nothingToShow: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Пусто'
   noItem: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось найти предмет'
-  dontHaveItem: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У вас нет {#ffffff}[amount]x &f[itemName]
+  dontHaveItem: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У вас нет {#ffffff}[amount]x {#FFFFFF}[itemName]
     {#ff8c8c}в вашем инвентаре'
   wrongWorld: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось сделать это в этом мире'
   differentWorld: '{#ff8c8c}Различные миры'
-  HaveItem: '&7У Вас есть &f[amount]x [itemName] &7в вашем инвентаре'
+  HaveItem: '{#AAAAAA}У Вас есть {#FFFFFF}[amount]x [itemName] {#AAAAAA}в вашем инвентаре'
   cantDoInGamemode: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете это сделать в данном
     режиме'
   cantDoForPlayer: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете сделать это игроку
@@ -131,7 +131,7 @@ info:
   cantDoForYourSelf: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете сделать это с собой'
   cantDetermineMobType: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось определить тип
     моба из {#e65c64}[type] {#ff8c8c}доступных'
-  cantRename: '!actionbar!&4Вы не можете переименовать предмет на это имя!'
+  cantRename: '!actionbar!{#AA0000}Вы не можете переименовать предмет на это имя!'
   confirmRedefine: '{#8ae0e6}Нажмите, чтобы подтвердить переопределение'
   cantEdit: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Вы не можете редактировать это'
   wrongName: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Неправильное имя'
@@ -152,10 +152,10 @@ info:
     Offline: '{#ff8c8c}Оффлайн'
     not: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Сервер не подключен к BungeeCord'
     noserver: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось найти сервер с таким названием'
-    server: '&7Сервер: {#8ae0e6}[name]'
+    server: '{#AAAAAA}Сервер: {#8ae0e6}[name]'
   variables:
-    am: '&7AM'
-    pm: '&7PM'
+    am: '{#AAAAAA}AM'
+    pm: '{#AAAAAA}PM'
     Online: '{#5fe65c}Онлайн'
     Offline: '{#ff8c8c}Оффлайн'
     TrueColor: '{#5fe65c}'
@@ -178,14 +178,14 @@ info:
   oneMonth: '{#8ae0e6}[months] {#5cace6}м. '
   weeks: '{#8ae0e6}[weeks] {#5cace6}нед. '
   oneWeek: '{#8ae0e6}[weeks] {#5cace6}нед. '
-  years: '&f[years] &7лет. '
-  oneYear: '&f[years] &7год '
-  day: '&f[days] &7дн. '
-  oneDay: '&f[days] &7день '
-  hour: '&f[hours] &7час. '
-  oneHour: '&f[hours] &7час '
-  min: '&f[mins] &7мин. '
-  sec: '&f[secs] &7сек. '
+  years: '{#FFFFFF}[years] {#AAAAAA}лет. '
+  oneYear: '{#FFFFFF}[years] {#AAAAAA}год '
+  day: '{#FFFFFF}[days] {#AAAAAA}дн. '
+  oneDay: '{#FFFFFF}[days] {#AAAAAA}день '
+  hour: '{#FFFFFF}[hours] {#AAAAAA}час. '
+  oneHour: '{#FFFFFF}[hours] {#AAAAAA}час '
+  min: '{#FFFFFF}[mins] {#AAAAAA}мин. '
+  sec: '{#FFFFFF}[secs] {#AAAAAA}сек. '
   time:
     separator: '{#e6bb8a}:'
     short:
@@ -195,29 +195,29 @@ info:
       hour: '{#8ae0e6}[hours]{#5cace6}час.'
       min: '{#8ae0e6}[mins]{#5cace6}мин.'
       sec: '{#8ae0e6}[secs]{#5cace6}сек.'
-  nextPageConsole: '&fFor next page perform &5[command]'
-  prevPage: '&7<---------'
+  nextPageConsole: '{#FFFFFF}For next page perform {#AA00AA}[command]'
+  prevPage: '{#AAAAAA}<---------'
   prevCustomPage: '{#e6bb8a}----<< {#5cace6}[value] '
   prevPageGui: '{#8ae0e6}Назад'
   prevPageClean: '{#8ae0e6}Назад '
-  prevPageOff: '&7<---------'
+  prevPageOff: '{#AAAAAA}<---------'
   prevCustomPageOff: '{#e6bb8a}----<< {#5cace6}[value] '
   prevPageHover: '{#ff8c8c}Назад'
   firstPageHover: '{#8ae0e6}В начало'
-  nextPage: '&7--------->'
+  nextPage: '{#AAAAAA}--------->'
   nextCustomPage: '{#5cace6} [value] {#e6bb8a}>>----'
   nextPageGui: '{#8ae0e6}Далее'
   nextPageClean: '{#8ae0e6}Далее'
-  nextPageOff: '&7--------->'
+  nextPageOff: '{#AAAAAA}--------->'
   nextCustomPageOff: '{#8ae0e6} [value] {#e6bb8a}>>----'
   nextPageHover: '{#8ae0e6}Далее'
   lastPageHover: '{#8ae0e6}В конец'
-  pageCount: ' {#5cace6}[current]&8/{#5cace6}[total] '
-  pageCountHover: '&7Всего [totalEntries]'
-  skullOwner: '!actionbar!&7Владелец: {#8ae0e6}[playerName]'
+  pageCount: ' {#5cace6}[current]{#555555}/{#5cace6}[total] '
+  pageCountHover: '{#AAAAAA}Всего [totalEntries]'
+  skullOwner: '!actionbar!{#AAAAAA}Владелец: {#8ae0e6}[playerName]'
   mobHeadName: '{#5cace6}Голова {#8ae0e6}[mobName]'
-  circle: '&cКруг'
-  square: '&5Площадь'
+  circle: '{#FF5555}Круг'
+  square: '{#AA00AA}Площадь'
   clear: '{#8ae0e6}Очистить'
   protectedArea: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Данная территория защищена!'
   valueToLong: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Значение слишком высокое. Максимум:
@@ -241,7 +241,7 @@ info:
   duration: '{#5cace6}Длительность: [value]'
   size: '{#5cace6}Размер: [value]'
   value: '{#5cace6}Значение: [value]'
-  Spawner: '&7Спавнер {#5cace6}[type]'
+  Spawner: '{#AAAAAA}Спавнер {#5cace6}[type]'
   DamageCause:
     block_explosion: Взрыв
     campfire: campfire
@@ -604,69 +604,69 @@ direction:
   w: Запад
   nw: Северо-Запад
 modify:
-  middlemouse: '&f[СКМ] &7для редактирования'
+  middlemouse: '{#FFFFFF}[СКМ] {#AAAAAA}для редактирования'
   qButtonEdit: '{#e6bb8a}Нажмите Q для редактирования'
-  newItem: '&7Поместите новый предмет сюда'
-  newLine: '&a<Новая линия>'
-  newLineHover: '&aДобавить новую строку'
-  newPage: '&a<Новая страница>'
-  newPageHover: '&aСоздать новую страницу'
-  removePage: '&c<Удалить страницу>'
-  removePageHover: '&cУдалить страницу'
-  deleteSymbol: ' &c[-]'
-  deleteSymbolHover: '&fУдалить &f[text]'
-  extraEditSymbol: ' &c!'
-  addSymbol: '&a[+]'
+  newItem: '{#AAAAAA}Поместите новый предмет сюда'
+  newLine: '{#55FF55}<Новая линия>'
+  newLineHover: '{#55FF55}Добавить новую строку'
+  newPage: '{#55FF55}<Новая страница>'
+  newPageHover: '{#55FF55}Создать новую страницу'
+  removePage: '{#FF5555}<Удалить страницу>'
+  removePageHover: '{#FF5555}Удалить страницу'
+  deleteSymbol: ' {#FF5555}[-]'
+  deleteSymbolHover: '{#FFFFFF}Удалить {#FFFFFF}[text]'
+  extraEditSymbol: ' {#FF5555}!'
+  addSymbol: '{#55FF55}[+]'
   addSymbolHover: '{#8ae0e6}Добавить новый'
   cancelSymbol: ' {#e6454e}[Отменить]'
   cancelSymbolHover: '{#ff5959}Отмена'
-  acceptSymbol: \n&f* &r{#65e645}[Принять телепортацию]
-  acceptSymbolHover: '{#8ae0e6}Принять\n&f* {#ff8c8c}Не принимайте запрос\n&f &7 &7{#ff8c8c}у
+  acceptSymbol: \n{#FFFFFF}* {#ffffff}{#65e645}[Принять телепортацию]
+  acceptSymbolHover: '{#8ae0e6}Принять\n{#FFFFFF}* {#ff8c8c}Не принимайте запрос\n{#FFFFFF} {#AAAAAA} {#AAAAAA}{#ff8c8c}у
     незнакомых игроков'
-  denySymbol: '&f &r{#e6454e}[Отклонить запрос]'
+  denySymbol: '{#FFFFFF} {#ffffff}{#e6454e}[Отклонить запрос]'
   denySymbolHover: '{#8ae0e6}Отклонить'
-  enabledSymbol: '&a[+]'
-  disabledSymbol: '&c[-]'
-  enabled: '&aВключено'
-  disabled: '&cВыключено'
-  running: '&aЗапущено'
-  paused: '&cОстановлено'
-  editSymbol: '&7✎'
-  editSymbolHover: '&7Редактировать &f[text]'
-  editLineColor: '&f'
+  enabledSymbol: '{#55FF55}[+]'
+  disabledSymbol: '{#FF5555}[-]'
+  enabled: '{#55FF55}Включено'
+  disabled: '{#FF5555}Выключено'
+  running: '{#55FF55}Запущено'
+  paused: '{#FF5555}Остановлено'
+  editSymbol: '{#AAAAAA}✎'
+  editSymbolHover: '{#AAAAAA}Редактировать {#FFFFFF}[text]'
+  editLineColor: '{#FFFFFF}'
   listUpSymbol: '{#8ae0e6}↑'
-  listUpSymbolHover: '&7Поднять'
+  listUpSymbolHover: '{#AAAAAA}Поднять'
   listDownSymbol: '{#8ae0e6}↓'
-  listDownSymbolHover: '&7Опустить'
-  listNumbering: '&e[number]. '
-  listAlign: '&80'
-  ChangeHover: '&7Нажмите, чтобы изменить'
+  listDownSymbolHover: '{#AAAAAA}Опустить'
+  listNumbering: '{#FFFF55}[number]. '
+  listAlign: '{#555555}0'
+  ChangeHover: '{#AAAAAA}Нажмите, чтобы изменить'
   ChangeCommands: '{#8ae0e6}Команды'
-  enabledColor: '&6'
-  disabledColor: '&7'
-  commandTitle: ' &7--- {#8ae0e6}[name] &7---'
-  commandList: ' &7[command]  '
-  emptyLine: '&7[Empty line]'
-  commandEdit: '&7Редактировать список'
+  enabledColor: '{#FFAA00}'
+  disabledColor: '{#AAAAAA}'
+  commandTitle: ' {#AAAAAA}--- {#8ae0e6}[name] {#AAAAAA}---'
+  commandList: ' {#AAAAAA}[command]  '
+  emptyLine: '{#AAAAAA}[Empty line]'
+  commandEdit: '{#AAAAAA}Редактировать список'
   nameAddInfo: '{#5cace6}Введите новое имя. Введите {#8ae0e6}cancel {#5cace6}для отмены'
   lineAddInfo: '{#8ae0e6}Введите новую строку или введите {#ff5959}cancel{#8ae0e6},
     чтобы отменить'
   commandAddInfo: '{#8ae0e6}Введите новую команду или {#ff5959}cancel{#8ae0e6}, чтобы
     отменить'
-  commandAddInformationHover: "&7[playerName] может быть использован для получения\
-    \ имени игрока \n&7Чтобы включить задержку в командах: \n&7delay! 5 \n&7Поддер\
+  commandAddInformationHover: "{#AAAAAA}[playerName] может быть использован для получения\
+    \ имени игрока \n{#AAAAAA}Чтобы включить задержку в командах: \n{#AAAAAA}delay! 5 \n{#AAAAAA}Поддер\
     живаютсяспециальные команды."
   commandEditInfo: '{#8ae0e6}Нажмите, чтобы вставить старый текст или введите {#ff5959}cancel{#8ae0e6},
     чтобы отменить действие. Введите {#ff5959}remove{#8ae0e6}, чтобы убрать строку'
-  listLimit: '&eList can''t be bigger than &6[amount] &eentries'
+  listLimit: '{#FFFF55}List can''t be bigger than {#FFAA00}[amount] {#FFFF55}entries'
   commandEditInfoHover: '{#8ae0e6}Нажмите, чтобы вставить старый текст'
 teleportation:
   relocation: '!actionbar!{#e65c64}Ваше местоположение телепортации было заблокировано'
 econ:
   noMoney: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас не достаточно денег'
-  charged: '!actionbar!&7Заряжено: {#5cace6}[amount]'
-  notEnoughMoney: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас недостаточно денег. \n&f*
-    &7Необходимо: &a[amount]'
+  charged: '!actionbar!{#AAAAAA}Заряжено: {#5cace6}[amount]'
+  notEnoughMoney: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас недостаточно денег. \n{#FFFFFF}*
+    {#AAAAAA}Необходимо: {#55FF55}[amount]'
   tooMuchMoney: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}У Вас слишком много денег'
 Selection:
   SelectPoints: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#8ae0e6}Выделите две точки с помощью {#ffffff}[tool]
@@ -675,49 +675,49 @@ Selection:
     {#8ae0e6}выбрана'
   SecondaryPoint: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#5cace6}Вторая {#8ae0e6}точка выделения
     {#5cace6}[point] {#8ae0e6}выбрана'
-  CoordsTop: '&7X:&f[x] &7Y:&f[y] &7Z:&f[z]'
-  CoordsBottom: '&7X:&f[x] &7Y:&f[y] &7Z:&f[z]'
-  Area: '{#5cace6}[world] &f({#5cace6}[x1]&7:{#5cace6}[y1]&7:{#5cace6}[z1] {#5cace6}[x2]&7:{#5cace6}[y2]&7:{#5cace6}[z2]&f)'
+  CoordsTop: '{#AAAAAA}X:{#FFFFFF}[x] {#AAAAAA}Y:{#FFFFFF}[y] {#AAAAAA}Z:{#FFFFFF}[z]'
+  CoordsBottom: '{#AAAAAA}X:{#FFFFFF}[x] {#AAAAAA}Y:{#FFFFFF}[y] {#AAAAAA}Z:{#FFFFFF}[z]'
+  Area: '{#5cace6}[world] {#FFFFFF}({#5cace6}[x1]{#AAAAAA}:{#5cace6}[y1]{#AAAAAA}:{#5cace6}[z1] {#5cace6}[x2]{#AAAAAA}:{#5cace6}[y2]{#AAAAAA}:{#5cace6}[z2]{#FFFFFF})'
 Location:
   Title: '{#8ae0e6}Расположение игрока'
-  Killer: '&7Убийца: &c[killer]'
-  OneLiner: '&7Положение: &f[location]'
-  DeathReason: '&7Причина смерти: &f[reason]'
-  Full: '&7[world] &f[x]&7: &f[y]&7: &f[z]'
-  World: '&7Мир: &f[world]'
-  X: '&7X: &f[x]'
-  Y: '&7Y: &f[y]'
-  Z: '&7Z: &f[z]'
-  Pitch: '&7Высота: &f[pitch]'
-  Yaw: '&7Азимут: &f[yaw]'
+  Killer: '{#AAAAAA}Убийца: {#FF5555}[killer]'
+  OneLiner: '{#AAAAAA}Положение: {#FFFFFF}[location]'
+  DeathReason: '{#AAAAAA}Причина смерти: {#FFFFFF}[reason]'
+  Full: '{#AAAAAA}[world] {#FFFFFF}[x]{#AAAAAA}: {#FFFFFF}[y]{#AAAAAA}: {#FFFFFF}[z]'
+  World: '{#AAAAAA}Мир: {#FFFFFF}[world]'
+  X: '{#AAAAAA}X: {#FFFFFF}[x]'
+  Y: '{#AAAAAA}Y: {#FFFFFF}[y]'
+  Z: '{#AAAAAA}Z: {#FFFFFF}[z]'
+  Pitch: '{#AAAAAA}Высота: {#FFFFFF}[pitch]'
+  Yaw: '{#AAAAAA}Азимут: {#FFFFFF}[yaw]'
   WorldNames:
-  - world-&6World
-  - world_nether-&6World Nether
-  - world_the_end-&6World The End
-Locations: '&7Местоположение: '
+  - world-{#FFAA00}World
+  - world_nether-{#FFAA00}World Nether
+  - world_the_end-{#FFAA00}World The End
+Locations: '{#AAAAAA}Местоположение: '
 command:
   help:
     output:
-      usage: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#8ae0e6}Использование:  &7%usage%'
-      cmdInfoFormat: '[command] &8- &7[description]'
-      cmdFormat: '&f/&6[command]&f[arguments]'
-      helpPageDescription: '&e* [description]'
-      explanation: '&7 * [explanation]'
-      title: '&7------- &f[Помощь] &7-------'
+      usage: '{#5cace6}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#8ae0e6}Использование:  {#AAAAAA}%usage%'
+      cmdInfoFormat: '[command] {#555555}- {#AAAAAA}[description]'
+      cmdFormat: '{#FFFFFF}/{#FFAA00}[command]{#FFFFFF}[arguments]'
+      helpPageDescription: '{#FFFF55}* [description]'
+      explanation: '{#AAAAAA} * [explanation]'
+      title: '{#AAAAAA}------- {#FFFFFF}[Помощь] {#AAAAAA}-------'
   nocmd:
     help:
-      info: '&7Показать все доступные команды'
+      info: '{#AAAAAA}Показать все доступные команды'
       args: ''
   clearcache:
     help:
-      info: '&eClear cache'
+      info: '{#FFFF55}Clear cache'
       args: ''
   reload:
     help:
-      info: '&7Перезагрузить конфигурации и локализации плагина'
+      info: '{#AAAAAA}Перезагрузить конфигурации и локализации плагина'
       args: ''
     info:
-      feedback: '&f({#5cace6}CMiLib&r&f) {#8ae0e6}Конфигурация перезагружена.\n &f({#8ae0e6}Especially
-        for RestartCraft&f)'
+      feedback: '{#FFFFFF}({#5cace6}CMiLib{#ffffff}{#FFFFFF}) {#8ae0e6}Конфигурация перезагружена.\n {#FFFFFF}({#8ae0e6}Especially
+        for RestartCraft{#FFFFFF})'
       failedConfig: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось загрузить файл конфигурации'
       failedLocale: '{#e65c64}ᴛʜᴇ ʀᴇʙᴏᴏᴛ ▢ {#ff8c8c}Не удалось загрузить файл локализации'
